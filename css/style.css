@@ -1,0 +1,39 @@
+.navbar {
+    border-bottom: black 3px solid;
+    background-color: black;
+    color: white;
+}
+
+#home {
+    background-image: url(../img/fitnes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 700px;
+    color: #fff;
+}
+
+#home .dark-overlay {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.4)
+}
+
+#home .home-inner {
+    padding-top: 250px;
+}
+
+#about {
+    background: #333;
+    color: #fff;
+}
+
+#contact-us {
+    background-color: #d6cbd3;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
